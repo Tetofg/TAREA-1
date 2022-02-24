@@ -35,7 +35,7 @@ while retry
       %Texto
       save('taxi.txt','mod', 'km','sts','-ascii');
       retry=false;
-   
+   endif
     if m==2
       conn = pq_connect(setdbopts('dbname','HWP','host','localhost',
       'port','5432','user','postgres','password','123fgthg'));
